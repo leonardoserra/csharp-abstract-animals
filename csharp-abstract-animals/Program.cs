@@ -1,10 +1,17 @@
-﻿namespace csharp_abstract_animals
+﻿using csharp_abstract_animals.Animal_subclasses;
+
+
+namespace csharp_abstract_animals
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Animal cane = new Dog();
+            cane.CosaMangi();
+            cane.Dormi();
+            cane.Verso();
+
         }
     }
 }
