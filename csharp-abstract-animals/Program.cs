@@ -38,7 +38,6 @@ namespace csharp_abstract_animals
             cane.Verso();
             Console.WriteLine();
 
-          
 
             Animal passerotto = new Sparrow();
             passerotto.CosaMangi();
@@ -47,12 +46,8 @@ namespace csharp_abstract_animals
             passerottoVolante.Fly();
             passerotto.Verso();
             Console.WriteLine();
-            ICanFly prova = null;
 
             
-
-
-
             Animal aquila = new Eagle();
             aquila.CosaMangi();
             aquila.Dormi();
