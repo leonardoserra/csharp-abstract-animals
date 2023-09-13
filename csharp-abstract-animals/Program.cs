@@ -1,5 +1,5 @@
 ﻿using csharp_abstract_animals.Animal_subclasses;
-
+using csharp_abstract_animals.Interfaces;
 
 namespace csharp_abstract_animals
 {
@@ -16,6 +16,8 @@ namespace csharp_abstract_animals
             Animal passerotto = new Sparrow();
             passerotto.CosaMangi();
             passerotto.Dormi();
+            ICanFly passerottoVolante = new Sparrow();
+            passerottoVolante.StartFlying(passerottoVolante);
             passerotto.Verso();
             Console.WriteLine();
 
@@ -24,6 +26,8 @@ namespace csharp_abstract_animals
             aquila.CosaMangi();
             aquila.Dormi();
             aquila.Verso();
+            ICanFly aquilaVolante= new Eagle();
+            aquilaVolante.StartFlying(aquilaVolante);
             Console.WriteLine();
 
 
@@ -31,6 +35,8 @@ namespace csharp_abstract_animals
             delfino.CosaMangi();
             delfino.Dormi();
             delfino.Verso();
+            ICanSwim delfinoNuotatore = new Dolphin();
+            delfinoNuotatore.StartSwimming(delfinoNuotatore);
             Console.WriteLine();
 
         }
