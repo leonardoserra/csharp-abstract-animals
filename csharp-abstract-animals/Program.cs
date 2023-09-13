@@ -26,6 +26,13 @@ namespace csharp_abstract_animals
             aquila.Verso();
             Console.WriteLine();
 
+
+            Animal delfino = new Dolphin();
+            delfino.CosaMangi();
+            delfino.Dormi();
+            delfino.Verso();
+            Console.WriteLine();
+
         }
     }
 }
