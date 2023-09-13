@@ -11,11 +11,20 @@ namespace csharp_abstract_animals
             cane.CosaMangi();
             cane.Dormi();
             cane.Verso();
+            Console.WriteLine();
 
             Animal passerotto = new Sparrow();
             passerotto.CosaMangi();
             passerotto.Dormi();
             passerotto.Verso();
+            Console.WriteLine();
+
+
+            Animal aquila = new Eagle();
+            aquila.CosaMangi();
+            aquila.Dormi();
+            aquila.Verso();
+            Console.WriteLine();
 
         }
     }
