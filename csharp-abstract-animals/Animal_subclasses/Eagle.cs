@@ -20,15 +20,11 @@ namespace csharp_abstract_animals.Animal_subclasses
 
         }
 
-        private void Fly()
+        public void Fly()
         {
             Console.WriteLine("Sto volando!");
+            Console.WriteLine("Inizio a volare....");
         }
 
-        public void StartFlying(ICanFly animal)
-        {
-            Console.WriteLine("Inizio a volare....");
-            Fly();
-        }
     }
 }

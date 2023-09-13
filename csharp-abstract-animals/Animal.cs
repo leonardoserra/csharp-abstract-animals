@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    internal abstract class Animal
+    public abstract class Animal
     {
         public void Dormi() {
             Console.WriteLine("ZZZzzzzz");

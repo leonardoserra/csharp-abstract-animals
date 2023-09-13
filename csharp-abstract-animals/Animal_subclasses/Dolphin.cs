@@ -18,15 +18,11 @@ namespace csharp_abstract_animals.Animal_subclasses
             Console.WriteLine("KKKkk kk k kKK kK kKK Kk Kkk !");
         }
 
-        private void Swim()
+
+        public void Swim()
         {
             Console.WriteLine("Sto nuotando!");
-        }
-
-        public void StartSwimming(ICanSwim animal)
-        {
             Console.WriteLine("Inizio a nuotare....");
-            Swim();
         }
 
     }

@@ -8,6 +8,6 @@ namespace csharp_abstract_animals.Interfaces
 {
     internal interface ICanSwim
     {
-        public void StartSwimming(ICanSwim animal);
+        public void Swim();
     }
 }

@@ -8,6 +8,6 @@ namespace csharp_abstract_animals.Interfaces
 {
     internal interface ICanFly
     {
-        public void StartFlying(ICanFly animal);
+        public void Fly();
     }
 }
